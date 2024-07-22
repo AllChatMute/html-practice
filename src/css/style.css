@@ -76,7 +76,7 @@ a {
   font-size: 16px;
   line-height: 20px;
 }
-.Header__get-started {
+.header__get-started {
   color: #fff;
   background: linear-gradient(to right, #cd10ff, #9f06ff);
   padding: 15px 30px;
@@ -227,8 +227,6 @@ a {
   bottom: 20px;
 }
 
-.learn {
-}
 .learn__text {
   text-align: center;
 }
@@ -316,3 +314,248 @@ a {
 }
 
 /* learn end */
+
+/* instructor start */
+
+.instructor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.instructor__title {
+  font-family: "Montserrat";
+  color: #001a49;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  margin-bottom: 20px;
+  width: 537px;
+}
+
+.instructor__description {
+  width: 560px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f596a;
+}
+
+.instructor__img {
+  width: 400px;
+  height: 372px;
+}
+.instructor__img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* instructor end */
+
+/* say start */
+
+.say-bg {
+  padding: 120px 0;
+  background: linear-gradient(to right, #cd10ff, #9f06ff);
+}
+
+.say__content {
+  text-align: center;
+  margin-bottom: 100px;
+  /* padding-top: 120px; */
+}
+.say__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.say__description {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.say__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.say__card {
+  max-width: 550px;
+  background: #ac0ae3;
+  border-radius: 20px;
+  padding: 50px;
+}
+.say__card-text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.say__card-user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.say__card-user-img {
+  width: 60px;
+  height: 60px;
+}
+
+.img1 {
+  background: url("/public/img/user1.png") center / cover no-repeat;
+}
+.img2 {
+  background: url("/public/img/user2.png") center / cover no-repeat;
+}
+.img3 {
+  background: url("/public/img/user3.png") center / cover no-repeat;
+}
+
+.say__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.say__name-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+/* say end */
+
+/* ask start */
+
+.ask {
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+.ask__title {
+  color: #001a49;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.ask__questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ask__question {
+  border: 1px solid #efceff;
+  border-radius: 20px;
+  min-width: 1200px;
+  padding: 40px;
+}
+.ask__question-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ask__question-title-text {
+  color: #001a49;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.ask__question-title-img {
+  width: 48px;
+  height: 48px;
+}
+.ask__question-text {
+  max-width: 1000px;
+  color: #4f596a;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* ask end */
+
+/* ready start */
+
+.ready {
+  text-align: center;
+  padding-bottom: 120px;
+}
+.ready__badge {
+  background: #ffefe3;
+  min-width: 400px;
+  padding: 8px 35px;
+  color: #cd10ff;
+  border-radius: 35px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.ready__title {
+  max-width: 650px;
+  font-family: "Montserrat";
+  color: #001a49;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.ready__link {
+  background: linear-gradient(to right, #cd10ff, #9f06ff);
+  padding: 20px 50px;
+  border-radius: 35px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* ready end */
+
+/* footer start*/
+
+.footer-bg {
+  background: #fbf3ff;
+}
+
+.footer {
+}
+
+.footer__content {
+}
+.footer__form {
+}
+.footer__form-input {
+  padding: 23px 40px;
+  padding-right: 400px;
+}
+
+.footer__link-wrapper {
+}
+.footer__nav {
+}
+.footer__ul {
+}
+.footer_list {
+  list-style: none;
+}
+.footer__list-link1 {
+}
+.footer__list-link {
+}
+/*footer end */
